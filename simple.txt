@@ -1,0 +1,40 @@
+Tutorial linguagem SIMPLE:
+
+http://www.ybadoo.com.br/tutoriais/cmp/11/
+
+Instruções reservadas
+rem	
+    Qualquer texto depois do comando rem é apenas para fins de documentação e é ignorado pelo compilador.	
+    
+    50 rem isto é comentário
+
+input	
+    Exibe um ponto de interrogação para pedir ao usuário para inserir um inteiro. 
+    Lê esse inteiro do teclado e armazena o inteiro na variável especificada.	
+    
+    30 input x
+
+let	
+    Atribui a variável o valor da expressão aritmética simples.	
+    
+    80 let u = j - 56
+
+print	
+    Exibe o valor da variável especificada.	
+    
+    10 print w
+
+goto	
+    Transfere o comando do programa para a linha especificada.	
+    
+    70 goto 45
+
+if/goto	
+    Transfere o controle do programa para a linha especificada se a condição for verdadeira; 
+    caso contrário, continua a execução na próxima instrução.
+    35 if i == z goto 80
+
+end	
+    Termina a execução do programa.	
+    
+    99 end
